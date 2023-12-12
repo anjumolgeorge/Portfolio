@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+    <link rel="icon" href="me-Anjus1.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("CPJ7luOmv-Thzt1LR");
+    })();
+</script>
+
+      
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Anju</a>
+        <div class="bx bx-menu" id="menu-icon">
+        </div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skil">Skill</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--Main part -->
+
+    <section class="home" id="home">
+        <div class="home-con">
+            <h1>Hi, I'm Anjus </h1>
+            <div class="text-animate">
+            <h3>Creative Web Developer</h3></div>
+            <p>Welcome to my web developer protfoliol! I'm Anjumol George ,<br>“Let us take you into a deeper experience, make a moment a lasting conveyable memory.<br> Let us help build your tribe.”.</p>
+            <div class="btn-box">
+                <a href="#" class="btn">Hire Me </a><a href="#contact" class="btn1">Let's Talk</a>
+            </div>
+        </div>
+        <div class="home-sci">
+            <a href="https://www.instagram.com/anjus__anju_/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="https://www.linkedin.com/in/anjumol-george-9bb3aa2a4/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/anjumolgeorge"><i class='bx bxl-github'></i></a>
+        </div>
+        <div class="home-imghover">
+            <img style="width: 650px;" src="me1.png" alt="">
+        </div>
+    </section>
+
+       <!-- ABOUT -->
+       <section class="about" id="about">
+        <h2 class="heading">About <span>Me </span></h2>
+        <div class="about-img">
+            <img src="Anjusanju.jpg" alt="">
+            <span class="circle-sp"></span>
+        </div>
+        <div class="about-con">
+            <h3>Creative Web Developer</h3>
+            <p>I'm frontend Developer.I love studying new technologies.Always give my extra efforts on work</p>
+            <div class="btn-boxAb">
+                <a href="/portfolio/education.html" target="_blank">
+                <div class="btnAb">Read More</div>
+            </a>
+            </div>
+        </div>
+       </section>
+        
+             <!-- Skil -->
+              <h1 class="skilsh1">S<span>k</span>ills</h1>
+            <section class="skil" id="skil">
+                <div class="skils">
+                    <a href="/portfolio/index.html" target="_blank"></a>
+                 <div class="skil-ph">
+                    <img src="https://t3.ftcdn.net/jpg/02/14/53/92/360_F_214539232_YnUrtuwUEt84gHuU0qG8l7OwZvH4rnPG.jpg" alt="">
+                 </div>
+                 <h2 class="skil-co">Developer</h2>
+                </div>
+                <div class="skils">
+                    <a href="" target="_blank">
+                    <div class="skil-ph">
+                       <img src="https://www.forbes.com/advisor/wp-content/uploads/2023/06/graphic-designer-desk.jpeg-1.jpg" alt="">
+                    </div>
+                    <h2 class="skil-co">Graphic Designing</h2>
+                </div>
+            </a>
+            
+             
+                <div class="skils">
+                    <!-- <p class="qu">
+                        The characters in my films try to live honestly and make the most of the lives they’ve been given. I believe you must live honestly and develop your abilities to the full. People who do this are the real heroes.
+                        </p>  -->
+                    <a href="" target="_blank">
+                    <div class="skil-ph">
+                        <img src="https://i.pinimg.com/originals/0a/76/e2/0a76e2275e3f4872ea38dada19f48768.jpg" alt="">
+                    </div>
+                    <h2 class="skil-co">Arts</h2>
+                   
+                </div>
+            </a>
+        
+            </section>
+
+
+            <!-- PROJECT  -->
+
+
+            <section class="project" id="project">
+                <h1 class="projecttitle">My <span>Project</span></h1>
+                <div class="project-con">
+                    <a href="index.html">
+                    <div class="box-ProjectCo">
+                       <img src="Portfolio.png" alt="">
+                       <h2>Portfolio</h2>
+                    </div>
+                </a>
+                    <a href="">
+                    <div class="box-ProjectCo">
+                      <img src="navbar.png" alt="">
+                      <h2>W3Schools</h2>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="box-ProjectCo">
+                        <img src="linkedin.jpg" alt="">
+                        <h2>linkedin</h2>
+                    </div>
+                </a>
+                </div>
+            </section>
+
+          
+            </section>
+
+            <!-- Contact -->
+            
+            <section class="contact" id="contact">
+                <h2 class="heading">Connect <span>Me!</span></h2>
+                <form action="#" onsubmit="sendMail(); reset(); return false;">
+                    <div class="input-box">
+                        <div class="input-field">
+                            <input id="fname" type="text" placeholder="Full Name" required>
+                            <span class="focus"></span>
+                        </div>
+                        <div class="input-field">
+                            <input id="email" type="email" placeholder="Email " required>
+                            <span class="focus"></span>
+                        </div>
+                        <div class="textarea-field">
+                            <textarea id="msg" name=""  cols="30" rows="10" placeholder="Yor Message"required></textarea>
+                            <span class="focus"></span>
+                        </div>
+                         
+                    </div>
+                    <div class="btn-box">
+                        <button class="btn3" onclick="sendMail()" >submit</button>
+                    </div>
+               
+                </form>
+            </section>
+ 
+ 
+            <!-- footer -->
+
+            <footer class="footer">
+                <p>Copyright 1999-2023 by Refsnes Data. All Rights Reserved. Portfolio is Powered by Anjumol George.
+                </p>
+            </footer>
+            
+            <script src="index.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
